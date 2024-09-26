@@ -3,7 +3,6 @@ import Grid from "@mui/material/Unstable_Grid2/Grid2";
 import SigninPage from "./components/SigninPage";
 import TitleBox from "./components/TitleBox";
 import MainLayout from "./layouts/MainLayout";
-
 const App: React.FC = () => {
   return (
     <MainLayout>
