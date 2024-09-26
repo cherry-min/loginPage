@@ -35,11 +35,11 @@ const TitleBox: React.FC = () => {
           <Typography variant="body1" fontWeight="" color="whitesmoke">
             一切为了从简
           </Typography>
-          <a href="https://github.com/cherry-min" style={{ textDecoration: 'none' }} target="_blank">
 
-            <GitHub />
+          <div style={{ marginTop: "20px", display: "flex", alignItems: "center" }}>
+            Github: <GitHub onClick={() => window.open("https://github.com/cherry-min")} sx={{ cursor: "pointer" }} />
+          </div>
 
-          </a>
 
         </Box>
       </Box>
