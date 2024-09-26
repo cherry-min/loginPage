@@ -6,6 +6,7 @@ import './index.css'
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getAuth } from 'firebase/auth';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 
 const firebaseConfig = {
@@ -27,6 +28,7 @@ console.log(auth);
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
+    <SpeedInsights />
     <App />
   </React.StrictMode>
 )
